@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ghiriti_Edmond_Lab7.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Label FontSize="22" FontAttributes="Bold" Text="John's Product" VerticalOptions="End" />
+            <Image Source="apple.jpg" SemanticProperties.Description="Apple" HeightRequest="64" />
+            <Label FontSize="22" Text="Apple" VerticalOptions="End" />
+            <Label FontSize="22" FontAttributes="Bold" Text="Garry's Product" VerticalOptions="End" />
+            <Image Source="banana.jpg" SemanticProperties.Description="Banana" HeightRequest="64" />
+            <Label FontSize="22" Text="Banana" VerticalOptions="End" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
